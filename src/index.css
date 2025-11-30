@@ -1,4 +1,34 @@
-body { font-family: 'Inter', Roboto, Arial, sans-serif; }
-.app-root { padding: 16px; background: #f6f8fb; min-height: 100vh; }
-.container { max-width: 1200px; margin: 0 auto; }
-.card { padding: 16px; border-radius: 12px; background: #fff; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+/* index.css */
+body {
+  background: #f4f7fb; /* soft light gray-blue */
+  margin: 0;
+  font-family: 'Inter', 'Roboto', sans-serif;
+  color: #1a1a1a;
+}
+
+.app-root {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 16px;
+}
+
+.header-title {
+  color: #00695c; /* deep teal — nice with eco green */
+  font-weight: 700;
+}
+
+.card {
+  padding: 16px;
+  border-radius: 12px;
+  background: #ffffff; /* explicit white for non-MUI cards */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.small-muted {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.clickable {
+  cursor: pointer;
+}
